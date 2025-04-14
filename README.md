@@ -1,39 +1,70 @@
-"# Student-Performance-Prediction-System" 
-# Student Performance Prediction System
+# Getting Started with Create React App
 
-## Overview
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-The **Student Performance Prediction System** is an application built with React for the front-end and Spring Boot for the back-end. This system predicts student performance based on various metrics such as attendance, test scores, and behavior. The admin panel allows administrators to manage students, add new students, delete students, and view predictions.
+## Available Scripts
 
-## Features
+In the project directory, you can run:
 
-- **Admin Panel**: A dashboard to manage students.
-  - Add a new student to the system.
-  - Delete students from the system.
-  - Predict the performance of students based on their data.
-- **Real-time Prediction**: Uses machine learning models to predict student performance.
-- **Responsive UI**: Modern, sleek, and mobile-friendly design.
+### `npm start`
 
-## Technologies Used
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- **Frontend**: React, Material-UI (for the UI components)
-- **Backend**: Spring Boot (for the REST API)
-- **Machine Learning**: Custom ML model (for predicting student performance)
-- **Database**: MySQL (for storing student data)
-- **Version Control**: Git, GitHub (for project management)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Getting Started
+### `npm test`
 
-### Prerequisites
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- **Node.js**: Ensure you have [Node.js](https://nodejs.org/) installed.
-- **Java 11 or higher**: Required for running the Spring Boot backend.
-- **MySQL**: A running instance of MySQL for the database.
-- **Git**: For version control and cloning the repository.
+### `npm run build`
 
-### Clone the Repository
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-To get started, clone the repository:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-```bash
-git clone https://github.com/your-username/student-performance-prediction.git
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
